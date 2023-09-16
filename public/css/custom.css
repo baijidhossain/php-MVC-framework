@@ -1,0 +1,85 @@
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+}
+
+.line-clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+}
+
+.line-clamp-5 {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+
+}
+
+.bg-color {
+
+  background-color: #1a4d80 !important;
+  color: #fff !important;
+  ;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #1a4d80 !important;
+  border-color: #1a4d80 !important;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+
+  background-color: #555299 !important;
+}
+
+table>thead {
+  background-color: #1a4d80 !important;
+}
+
+table>thead>tr>th {
+  text-align: left;
+  color: white !important;
+}
+
+.btn-group .dropdown-menu {
+  border: 1px solid #1a4d80 !important;
+}
+
+.btn-group .dropdown-menu li a i {
+  color: #1a4d80 !important;
+}
+
+.btn-group .dropdown-menu li a i.fa-trash {
+  color: #a94442 !important;
+}

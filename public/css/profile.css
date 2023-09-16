@@ -1,0 +1,45 @@
+.profile .box-profile {
+   padding: 20px;
+}
+.profile .list-group .list-group-item {
+   border-bottom: 0;
+}
+
+.upload_container {
+   width: 100px;
+   padding: 3px;
+   border: 3px solid #d2d6de;
+   position: relative;
+   height: 100px;
+   display: flex;
+   border-radius: 50%;
+   overflow: hidden;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+.upload_container img {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.upload_container i {
+   position: absolute;
+   z-index: -1;
+   color: white;
+}
+.upload_container:hover i {
+   z-index: 1;
+}
+.upload_container::after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   background-color: transparent;
+   transition: all 0.3s ease;
+}
+.upload_container:hover::after {
+   background-color: hsl(0 0% 0% / 0.65);
+}
